@@ -11,5 +11,7 @@ export INSTALL_DIR=/usr/local/lib/rs/0.7.3.4-b7u
 export PATH=$INSTALL_DIR:$PATH
 
 cd sshell
+
 make
+
 ./sshell
