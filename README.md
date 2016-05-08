@@ -1,12 +1,13 @@
 # RScheme-for-windows
 RScheme-for-windows run time library and example to call by c.
 
-#Ê¹ÓÃËµÃ÷
-Ê¹ÓÃ»·¾³£ºmingw gcc
-ÅäÖÃ°²×°Â·¾¶£¬±ÈÈç°²×°ÔÚ/usr/local/libÏÂ¡£
+#ä½¿ç”¨è¯´æ˜
+ä½¿ç”¨ç¯å¢ƒï¼šmingw gcc
+é…ç½®å®‰è£…è·¯å¾„ï¼Œæ¯”å¦‚å®‰è£…åœ¨/usr/local/libä¸‹ã€‚
 
 
 export INSTALL_DIR=/usr/local/lib/rs/0.7.3.4-b7u
+
 export PATH=$INSTALL_DIR:$PATH
 
 cd sshell
