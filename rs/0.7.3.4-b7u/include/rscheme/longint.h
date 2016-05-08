@@ -16,7 +16,7 @@
 #define _H_RS_LONGINT
 
 #ifndef HAVE_INT_64
-typedef struct _int64 {
+typedef struct _2int64 {
    UINT_16 digits[4];
 } INT_64;
 

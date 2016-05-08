@@ -27,7 +27,7 @@
 #include <rscheme/obj.h>
 
 #if HAVE_STRUCT_TIMEVAL
-#include <sys/time.h>
+//#include <time.h>
 #else
 struct timeval { 
   long int tv_sec;

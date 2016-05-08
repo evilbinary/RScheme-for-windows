@@ -30,13 +30,13 @@
  *  raise an exception
  */
 
-_rs_volatile void scheme_error( const char *msg, unsigned num_args, ... );
-_rs_volatile void raise_exception( int type, int argc, ... );
-_rs_volatile void type_check_error( obj thing, 
+ void scheme_error( const char *msg, unsigned num_args, ... );
+ void raise_exception( int type, int argc, ... );
+ void type_check_error( obj thing, 
 				    const char *class_name, 
 				    int fplace_code );
 /* supplies the `stack' property if *capture-stack-on-conditions* is !#f */
-_rs_volatile void raise_error( obj err_object );
+ void raise_error( obj err_object );
 void rs_crash_dump_vmstate( FILE *f );     /* dump vm state */
 
 
