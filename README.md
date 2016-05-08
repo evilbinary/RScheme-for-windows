@@ -20,4 +20,4 @@ make
 
 
 ####在vs或者vc等IDE下使用需要加入以下库
-librs.a libmingwex.a libdl.a libgcc.a libpsapi.a libmsvcr71.a libmold
+librs.a libmingwex.a libdl.a libgcc.a libpsapi.a libmsvcr71.a libmoldname71.a
