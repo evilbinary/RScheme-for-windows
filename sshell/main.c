@@ -12,16 +12,16 @@
 #include "shell.h"
 #include <rscheme/scheme.h>
 #include <rscheme/smemory.h>
-#include <rscheme/vinsns.h>
-#include <rscheme/gcserver.h>
+
 
 int main( int argc, const char **argv )
 {
+	obj ret;
 	as_init(argc,argv);
-	obj ret=as_eval( "(display \"Hello, RScheme-windows\\n\") (display 22)" );
-	printf("ret=%s",string_text(ret) );
+	ret=as_eval( "(display \"Hello, RScheme-windows\\n\") (display 22)" );
+	printf("ret=%s",unicode_string_text(ret) );
 	ret=as_eval( "(+ 1 2)");
-	printf("ret=%s\n",string_text(ret) );
+	printf("ret=%s\n",unicode_string_text(ret) );
 
   return 0;
 }
